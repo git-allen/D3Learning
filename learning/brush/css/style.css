@@ -1,0 +1,151 @@
+body {
+	font-family: Avenir, sans-serif;
+  font-weight: bold;
+  margin: 2rem;
+  display: flex;
+
+}
+
+h3 {
+	font-weight: 100;
+  color: #555;
+  margin: 0.4rem 0;
+}
+
+svg {
+	border: 1px solid #ccc;
+}
+
+
+svg,
+.selected-container {
+  border: 1px solid #ccc;
+}
+
+button {
+	outline: none;
+  color: #555;
+  boder-color: #eee;
+  padding: 3px 10px;
+  font-family: Avenir;
+  transition: all 200ms;
+}
+
+button:hover {
+	background: #f7f7f7;
+}
+
+button:focus {
+	background: #e7e7e7;
+}
+
+
+text {
+	font-family: 'Avenir', sans-serif;
+}
+
+.axis .domain {
+	stroke:  #bbb;
+}
+
+
+.axis .tick line {
+  stroke: #bbb;
+  stroke-width: 0.5;
+  stroke-dasharray: 4, 2;
+}
+
+
+.axes-labels text {
+  font-size: 0.6em;
+  fill: #444;
+}
+
+.x line{
+	stroke: black;
+}
+
+.tooltip {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  background: #eee;
+  max-width: 200px;
+} 
+
+.tip-header {
+	border-bottom: 2px solid white;
+  padding: 0.9rem 1rem;
+}
+
+.tip-body {
+  padding: 0.2rem 0;
+}
+
+
+h3
+{
+	font-size: 1em;
+  color: #555;
+  margin: 0;
+ 	font-weight: bold;
+
+}
+
+h4 {
+  font-size: 0.9em;
+  color: #000000;
+  margin: 0;
+	font-weight: normal;
+}
+
+p {
+  font-weight: normal;
+}
+
+.tip-info {
+	margin: 0;
+  padding: 0.3rem 1em;
+  font-size: 0.8em;
+}
+
+.tip-info:nth-of-type(even) {
+	background: #e0e0e0
+}
+
+.bar:hover {
+	fill: red;
+}
+
+
+.selected-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.selected-header {
+  background: #f0f0f0;
+  color: #777;
+  padding: 0.5rem 2rem;
+  text-align: right;
+}
+
+.selected-body {
+  font-size: 0.8em;
+  overflow: auto;
+  cursor: default;
+}
+
+.selected-title {
+  font-weight: bold;
+}
+
+.selected-element {
+  margin: 0.5em;
+  padding: 0.5em;
+  transition: background-color 200ms ease;
+}
+.selected-element:hover {
+  background-color: #f0f0f0;
+}

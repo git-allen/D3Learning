@@ -1,0 +1,19 @@
+
+#article-1 {
+	text-decoration: underline;
+}
+.error {
+	font-weight: bold;
+	color: red;
+}
+.article .warning {
+	color: blue;
+}
+
+div {
+	font-size: 15px;
+	padding: 30px 10px;
+	background-color: #F7F7F7;
+	color: black;
+	border: 2px solid red;
+}

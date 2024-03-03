@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>D3 Project Starter Template</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>    
+    <!-- Add HTML content, SVG drawing area, ... -->
+    <h1>S&P 500 Index</h1>
+
+    <div>
+        Start year: <input type="number" value="2016" min="2016" max="2020" id="start-year-input">
+    </div>
+
+    <svg id="chart"></svg>
+
+    <div class="source">
+        Source: Data from <a href="https://finance.yahoo.com">finance.yahoo.com</a>
+    </div>
+    
+    <!-- D3 bundle -->
+    <script src="js/d3.v6.min.js"></script>
+
+    <!-- Our JS code -->
+    <script src="js/linechart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

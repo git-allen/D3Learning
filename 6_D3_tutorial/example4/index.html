@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>D3 Project Starter Template</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>    
+    <!-- Add HTML content, SVG drawing area, ... -->
+    <h1>Vancouver Trails</h1>
+    
+    <div id="scatterplot"></div>
+
+    <ul class="legend">
+        <li class="legend-btn" data-difficulty="Easy"><span class="legend-symbol"></span> Easy</li>
+        <li class="legend-btn" data-difficulty="Intermediate"><span class="legend-symbol"></span> Intermediate</li>
+        <li class="legend-btn" data-difficulty="Difficult"><span class="legend-symbol"></span> Difficult</li>
+    </ul>
+
+    <div class="source">
+        Source: Data from <a href="https://vancouvertrails.com/trails/">vancouvertrails.com</a>
+    </div>
+
+    <div id="tooltip"></div>
+    
+    <!-- D3 bundle -->
+    <script src="js/d3.v6.min.js"></script>
+
+    <!-- Our JS code -->
+    <script src="js/scatterplot.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
